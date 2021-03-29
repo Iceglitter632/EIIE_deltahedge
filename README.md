@@ -1,3 +1,6 @@
+## 
+This is a modify done to the paper A Deep Reinforcement Learning Framework for the Financial Portfolio Management Problem ([arXiv:1706.10059](https://arxiv.org/abs/1706.10059)). The changes made to this paper is: originally the paper was aimed to manage a portfolio with cryptocurrency, aimed to have asset gain; but this project is aimed to mitigate risk by using delta hedging and the BSM model of options and futures. 
+
 This is the original implementation of our paper, A Deep Reinforcement Learning Framework for the Financial Portfolio Management Problem ([arXiv:1706.10059](https://arxiv.org/abs/1706.10059)), together with a toolkit of portfolio management research.
 
 * The deep reinforcement learning framework is the core part of the library.
@@ -15,16 +18,6 @@ Note that this library is a part of our main project, and it is several versions
 * All updates will be incorporated into future versions of the paper.
 * Original versioning history,  and internal discussions, including some in-code comments, are removed in this open-sourced edition. These contains our unimplemented ideas, some of which will very likely become the foundations of our future publications
 
-## Platform Support
-Python 3.5+ in windows and Python 2.7+/3.5+ in linux are supported.
-
-## Dependencies
-Install Dependencies via `pip install -r requirements.txt`
-
-* tensorflow (>= 1.0.0)
-* tflearn
-* pandas
-* ...
 
 ## User Guide
 Please check out [User Guide](user_guide.md)
